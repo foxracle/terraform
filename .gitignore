@@ -40,9 +40,6 @@ terraform.rc
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
-# Default ignored files
-.idea/.gitignore
-
 # User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
@@ -153,3 +150,9 @@ modules.xml
 .idea/**/azureSettings.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij
+
+# Default ignored files
+.idea/.gitignore
+
+# this file is for VCS-related internal information, as which VCS is enabled, etc.
+.idea/vcs.xml
